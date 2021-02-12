@@ -14,7 +14,7 @@ variables:
   imageRepository: 'app1nginx'
   containerRegistry: 'tstaksvk.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
-  tag: '$(Build.BuildId)'
+  tag: '$(Build.BuildNumber)'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
