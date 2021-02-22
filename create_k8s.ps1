@@ -29,4 +29,10 @@ az aks create --resource-group 'tst-kuber-rg' --name 'tst-kuber1-svk' --node-cou
 #az aks show --resource-group 'tst-kuber-rg' --name 'tst-kuber1-svk' --query nodeResourceGroup -o tsv
 
 
+az login --tenant 6726ea9f-344c-4609-9af9-35e8d9d1663f
+
+az login
+
+az aks delete --resource-group 'tst-kuber-rg' --name 'tst-kuber1-svk' --no-wait --yes
+
 
